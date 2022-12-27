@@ -1,0 +1,25 @@
+@import './Block/_Header.scss';
+@import './Block/Landfills';
+@import './Block/Content';
+@import './Block/Bestsellers';
+@import './Block/Floyd';
+@import './Block/Reviews';
+@import './Block/Apartment';
+@import './Block/Stress-free';
+@import './Block/Footer';
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  &--ride {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,27 @@
+.landfills {
+  width: 100%;
+  padding: 128px 0;
+
+  &__inner {
+    display: block;
+  }
+
+  &__title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: center;
+    margin: 0 50px;
+    margin-bottom: 16px;
+  }
+
+  &__desc {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 100px
+  }
+}
